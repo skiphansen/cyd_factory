@@ -1,0 +1,6 @@
+.pio/
+*.vpw
+*.vpwhist
+*.vtg
+*.log
+

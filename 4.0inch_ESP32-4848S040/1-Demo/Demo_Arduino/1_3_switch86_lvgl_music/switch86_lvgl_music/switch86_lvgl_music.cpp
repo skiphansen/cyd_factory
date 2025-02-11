@@ -1,3 +1,4 @@
+#include <Arduino.h>
 /*******************************************************************************
    LVGL Widgets
    This is a widgets demo for LVGL - Light and Versatile Graphics Library

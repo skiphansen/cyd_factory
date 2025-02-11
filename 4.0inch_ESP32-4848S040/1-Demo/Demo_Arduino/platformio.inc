@@ -12,13 +12,6 @@
 framework = arduino
 monitor_speed = 115200
 board = esp32-s3-devkitc-1
-lib_deps =
-;    ArduinoJson
-;    Wire
-;    HTTPClient
-;    WiFiClientSecure
-;    Adafruit BusIO
-
 
 [base:esp32]
 lib_extra_dirs = 
@@ -26,7 +19,7 @@ lib_extra_dirs =
         ../libraries
 platform = espressif32
 framework = ${common.framework}
-lib_deps = ${common.lib_deps}
+lib_deps = ${project.lib_deps}
 
 [env:1732S019]
 board = esp32-s3-devkitc-1
